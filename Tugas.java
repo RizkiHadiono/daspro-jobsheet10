@@ -3,7 +3,6 @@ public class Tugas {
     public static void main(String[] args) {
         
         // Deklarasi array 2 dimensi
-        // [jumlah baris][jumlah kolom] 
         int[][] dataSurvey = new int[][]{
             {4, 5, 3, 4, 5, 4},  // Responden 1
             {3, 4, 2, 3, 5, 4},  // Responden 2
@@ -24,7 +23,7 @@ public class Tugas {
         // Pembatas
         System.out.println("======= Rata-rata Responden =======\n");
 
-        // Rata2 tiap respondent
+        // Rata-rata tiap respondent
         for (int i = 0; i < jmlRespondent; i++) {
             int skor = 0;
             for (int j = 0; j < jmlPertanyaan; j++) {
